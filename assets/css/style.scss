@@ -8,13 +8,13 @@
 :root{
   /* Tune these two numbers only */
   --fi-header-pad-bottom: 5.0rem;  /* how tall the gradient is below the title area */
-  --fi-overlap:           1.0rem;   /* how far the white card (with the logo) overlaps the gradient */
+  --fi-overlap:           5.0em;   /* how far the white card (with the logo) overlaps the gradient */
 }
 
 /* Gradient header */
 .page-header {
   background-image: linear-gradient(110deg, #0aa36f, #ff7a18);
-  padding: -5.0rem 0 var(--fi-header-pad-bottom);
+  padding: 3.5rem 0 var(--fi-header-pad-bottom);
   margin: 0;
   position: relative;
 }
