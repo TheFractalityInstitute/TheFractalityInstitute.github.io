@@ -1,31 +1,31 @@
 ---
 ---
 
-/* 1) Pull in the Cayman theme first */
+/* 1) Load the Cayman theme first (so our overrides win) */
 @import "{{ site.theme }}";
 
-/* 2) FI overrides (now loaded AFTER the theme) */
+/* 2) FI overrides — gradient header + banner overlap */
 
-.main-content { padding-top: 0; }
-
-/* Keep FI colors in the header and make it taller so the banner can overlap */
+/* Keep FI colors and give extra space behind the banner */
 .page-header {
   background-image: linear-gradient(110deg, #0aa36f, #ff7a18);
-  padding-top: 3.5rem;
-  padding-bottom: 9rem;
-  margin-bottom: 0;
+  padding: 3.5rem 0 10rem;   /* top | sides | bottom */
+  margin: 0;
   position: relative;
 }
 
-/* Now the negative margin lifts the banner over the gradient */
-.hero { margin-top: -7rem; }   /* tweak -6rem…-10rem to taste */
+/* Pull the entire white content card up into the header area */
+.main-content {
+  margin-top: -6rem;         /* adjust (more negative = higher overlap) */
+  padding-top: 0;            /* no extra gap above the hero */
+  position: relative;
+  z-index: 2;                /* keep content above the header background */
+}
 
-/* Overlay the FI banner on the gradient */
+/* Your banner inside the card */
 .hero {
   width: min(1100px, 92%);
-  margin: -7.5rem auto 1.25rem; /* negative top margin = overlap */
-  position: relative;
-  z-index: 5;
+  margin: 0 auto 1.25rem;    /* centered, small gap below */
 }
 .hero img {
   width: 100%;
@@ -34,17 +34,13 @@
   box-shadow: 0 10px 24px rgba(0,0,0,.18);
 }
 
-/* Hide the default "Home" + tagline text in the header */
+/* Hide the default "Home" + tagline text in the Cayman header */
 .page-header .project-name,
-.page-header .project-tagline { display: none; }
-
-/* Responsive tweak */
-@media (max-width: 640px){
-  .page-header { padding-bottom: 7.5rem; }
-  .hero { margin-top: -6rem; }
+.page-header .project-tagline {
+  display: none;
 }
 
-/* Cards (kept from your custom.css) */
+/* Cards (home sections) */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -57,4 +53,13 @@
   padding: 16px;
   box-shadow: 0 8px 20px rgba(0,0,0,.06);
 }
-.card h3 { margin-top: 0; color: #0aa36f; }
+.card h3 {
+  margin-top: 0;
+  color: #0aa36f;
+}
+
+/* Responsive tweak */
+@media (max-width: 640px) {
+  .page-header { padding-bottom: 8rem; }
+  .main-content { margin-top: -4.5rem; }
+}
