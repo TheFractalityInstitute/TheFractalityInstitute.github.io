@@ -1,0 +1,8 @@
+/* small brand nudge; keep Cayman’s look */
+.page-header {
+  /* tweak the gradient toward FI green→orange */
+  background-image: linear-gradient(110deg, #0aa36f, #ff7a18);
+}
+.main-content h1, .main-content h2, .main-content h3 {
+  color: #0aa36f; /* FI green for headings */
+}
