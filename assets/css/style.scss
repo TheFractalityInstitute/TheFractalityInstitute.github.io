@@ -17,6 +17,9 @@
   position: relative;
 }
 
+/* Now the negative margin lifts the banner over the gradient */
+.hero { margin-top: -7rem; }   /* tweak -6rem…-10rem to taste */
+
 /* Overlay the FI banner on the gradient */
 .hero {
   width: min(1100px, 92%);
