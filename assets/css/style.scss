@@ -4,23 +4,37 @@
 /* 1) Load the Cayman theme first (so our overrides win) */
 @import "{{ site.theme }}";
 
-/* 2) FI overrides — gradient header + banner overlap */
+/* --- FI: header size + overlap controls --- */
+:root{
+  /* Tune these two numbers only */
+  --fi-header-pad-bottom: 6.25rem;  /* how tall the gradient is below the title area */
+  --fi-overlap:           5.0rem;   /* how far the white card (with the logo) overlaps the gradient */
+}
 
-/* Keep FI colors and give extra space behind the banner */
+/* Gradient header */
 .page-header {
   background-image: linear-gradient(110deg, #0aa36f, #ff7a18);
-  padding: 3.5rem 0 10rem;   /* top | sides | bottom */
+  padding: 3.5rem 0 var(--fi-header-pad-bottom);
   margin: 0;
   position: relative;
 }
 
-/* Pull the entire white content card up into the header area */
+/* Pull the whole content card upward into the header */
 .main-content {
-  margin-top: -12rem;         /* adjust (more negative = higher overlap) */
-  padding-top: 0;            /* no extra gap above the hero */
+  margin-top: calc(-1 * var(--fi-overlap));
+  padding-top: 0;
   position: relative;
-  z-index: 2;                /* keep content above the header background */
+  z-index: 2;
 }
+
+/* Responsive tweak (slightly smaller on phones) */
+@media (max-width: 640px){
+  :root{
+    --fi-header-pad-bottom: 5.5rem;
+    --fi-overlap:           4.25rem;
+  }
+}
+
 
 /* Your banner inside the card */
 .hero {
