@@ -194,13 +194,13 @@
 @media (max-width: 600px){
   :root{
     /* vertical geometry */
-    --fi-header-pad-bottom: 4.6rem;  /* gradient height under the plate */
-    --fi-overlap:           3.9rem;  /* how far the plate overlaps the gradient */
+    --fi-header-pad-bottom: 3.0rem;  /* gradient height under the plate */
+    --fi-overlap:           4.3rem;  /* how far the plate overlaps the gradient */
 
     /* plate styling */
     --fi-hero-pad:   10px;                      /* inner padding around image */
     --fi-hero-radius: 16px;                     /* corner rounding */
-    --fi-hero-bg:    rgba(255,255,255,0.92);    /* opacity for contrast */
+    --fi-hero-bg:    rgba(255,255,255,0.1);    /* opacity for contrast */
   }
 }
 
