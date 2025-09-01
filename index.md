@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="hero">
-  <img src="/assets/img/FI-header.png" alt="The Fractality Institute — for Integrative Science and Philosophy">
+  <img src="/assets/img/FI-header.png" alt="The Fractality Institute for Integrative Science and Philosophy">
 </div>
 
 ### Mission
