@@ -6,6 +6,8 @@
 
 /* 2) FI overrides (now loaded AFTER the theme) */
 
+.main-content { padding-top: 0; }
+
 /* Keep FI colors in the header and make it taller so the banner can overlap */
 .page-header {
   background-image: linear-gradient(110deg, #0aa36f, #ff7a18);
