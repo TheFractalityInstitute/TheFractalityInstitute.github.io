@@ -1,7 +1,10 @@
 ---
-title: About
 layout: default
+title: About
 ---
 
 ## About The Fractality Institute
-We’re building a rigorous, integrative institute at the intersection of science, engineering, and speculative philosophy.
+We advance integrative science & philosophy with open, testable frameworks and working prototypes.
+
+- Values: rigor, transparency, creative synthesis.
+- Focus: UCT/URF foundations, PVP methodology, CHIMERA cognitive architecture.
