@@ -124,3 +124,68 @@
   z-index: 1;
 }
 .hero { z-index: 2; }                     /* ensure image stays above the scrim */
+
+/* ---------- FI responsive tuning (desktop ↔ mobile) ---------- */
+
+/* Master knobs */
+:root{
+  /* Gradient height below the title area */
+  --fi-header-pad-bottom: clamp(4.25rem, 8vw, 6.25rem);
+
+  /* How far the white card overlaps the gradient */
+  --fi-overlap: clamp(3.25rem, 7vw, 5.25rem);
+
+  /* “Glass plate” around the logo */
+  --fi-hero-pad: clamp(8px, 1.5vw, 12px);
+  --fi-hero-radius: 16px;
+  --fi-hero-bg: rgba(255,255,255,0.88); /* a touch more opaque on small screens */
+}
+
+/* Apply the knobs */
+.page-header{
+  padding: 3.5rem 0 var(--fi-header-pad-bottom);
+}
+.main-content{
+  margin-top: calc(-1 * var(--fi-overlap));
+}
+
+/* Hero plate + image */
+.hero{
+  width: min(1100px, 92%);
+  margin: 0 auto 1.1rem;
+  position: relative;
+  padding: var(--fi-hero-pad);
+}
+.hero::before{
+  content:"";
+  position:absolute; inset:0;
+  background: var(--fi-hero-bg);
+  -webkit-backdrop-filter: blur(6px) saturate(115%);
+  backdrop-filter: blur(6px) saturate(115%);
+  border-radius: var(--fi-hero-radius);
+  box-shadow: 0 14px 34px rgba(0,0,0,.18);
+  z-index:0;
+}
+.hero img{
+  position: relative; z-index:1;
+  display:block; width:100%; height:auto;
+  border-radius: calc(var(--fi-hero-radius) - 6px);
+  box-shadow:none;
+}
+
+/* If the browser doesn't support backdrop-filter, fall back to a more opaque plate */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
+  .hero::before{ background: rgba(255,255,255,0.96); }
+}
+
+/* Extra-small phones: shave a bit more height and overlap */
+@media (max-width: 420px){
+  :root{
+    --fi-header-pad-bottom: 4rem;
+    --fi-overlap: 3.5rem;
+    --fi-hero-pad: 8px;
+    --fi-hero-radius: 14px;
+  }
+  .cards{ gap: 12px; }
+  .card{ padding: 14px; }
+}
