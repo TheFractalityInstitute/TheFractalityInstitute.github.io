@@ -16,7 +16,7 @@
 
 /* Pull the entire white content card up into the header area */
 .main-content {
-  margin-top: -6rem;         /* adjust (more negative = higher overlap) */
+  margin-top: -15rem;         /* adjust (more negative = higher overlap) */
   padding-top: 0;            /* no extra gap above the hero */
   position: relative;
   z-index: 2;                /* keep content above the header background */
