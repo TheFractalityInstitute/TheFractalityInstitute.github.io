@@ -63,3 +63,33 @@
   .page-header { padding-bottom: 8rem; }
   .main-content { margin-top: -4.5rem; }
 }
+
+/* --- FI: glass backplate behind the hero image for contrast --- */
+.hero {
+  width: min(1100px, 92%);
+  margin: 0 auto 1.25rem;
+  position: relative;
+  padding: 10px;                /* space inside the plate around the image */
+  z-index: 2;                   /* keep above header scrims if any */
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;                     /* covers the hero box incl. padding */
+  background: rgba(255, 255, 255, 0.85);   /* adjust 0.75–0.92 to taste */
+  -webkit-backdrop-filter: blur(6px) saturate(115%);
+  backdrop-filter: blur(6px) saturate(115%);
+  border-radius: 12px;
+  box-shadow: 0 14px 34px rgba(0,0,0,.18);
+  z-index: 0;                   /* sits behind the image */
+}
+.hero img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;           /* softens the transparent PNG edges */
+  box-shadow: none;             /* shadow now lives on the plate */
+}
+
