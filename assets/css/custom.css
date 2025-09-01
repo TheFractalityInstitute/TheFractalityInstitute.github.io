@@ -30,3 +30,12 @@
   box-shadow: 0 8px 20px rgba(0,0,0,.06);
 }
 .card h3 { margin-top: 0; color: #0aa36f; }
+
+/* Remove the Cayman gradient header strip */
+.page-header { display: none; }
+
+/* Pull content up now that header is gone */
+.main-content { padding-top: 0; }
+
+/* Tidy the first element after the header */
+.main-content > :first-child { margin-top: 0; }
