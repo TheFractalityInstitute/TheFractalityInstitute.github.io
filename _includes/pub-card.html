@@ -1,0 +1,15 @@
+<article class="card">
+  <h3>{{ pub.title }}</h3>
+  <p>
+    {% if pub.authors %}<em>{{ pub.authors }}</em><br>{% endif %}
+    {% if pub.venue %}{{ pub.venue }}{% endif %}{% if pub.year %} ({{ pub.year }}){% endif %}
+  </p>
+  <p>
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">DOI</a>{% endif %}
+    {% if pub.pdf %}{% if pub.doi %} · {% endif %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
+    {% if pub.link and not pub.pdf and not pub.doi %}<a href="{{ pub.link }}">Link</a>{% endif %}
+  </p>
+  {% if pub.abstract %}
+  <details><summary>Abstract</summary><p>{{ pub.abstract }}</p></details>
+  {% endif %}
+</article>
