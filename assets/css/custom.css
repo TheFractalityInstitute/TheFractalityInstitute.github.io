@@ -1,8 +1,32 @@
-/* small brand nudge; keep Cayman’s look */
+/* Subtle brand nudge on the Cayman header bar */
 .page-header {
-  /* tweak the gradient toward FI green→orange */
   background-image: linear-gradient(110deg, #0aa36f, #ff7a18);
 }
-.main-content h1, .main-content h2, .main-content h3 {
-  color: #0aa36f; /* FI green for headings */
+
+/* Header graphic on the home page */
+.hero {
+  max-width: 1100px;
+  margin: 1.5rem auto 0;
+  text-align: center;
 }
+.hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.12);
+}
+
+/* Simple card grid */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.06);
+}
+.card h3 { margin-top: 0; color: #0aa36f; }
