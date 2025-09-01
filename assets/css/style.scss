@@ -130,10 +130,10 @@
 /* Master knobs */
 :root{
   /* Gradient height below the title area */
-  --fi-header-pad-bottom: clamp(4.25rem, 8vw, 6.25rem);
+  --fi-header-pad-bottom: clamp(4.25rem, 8vw, 6.5rem);
 
   /* How far the white card overlaps the gradient */
-  --fi-overlap: clamp(3.25rem, 7vw, 5.25rem);
+  --fi-overlap: clamp(3.25rem, 7vw, 9.5rem);
 
   /* “Glass plate” around the logo */
   --fi-hero-pad: clamp(8px, 1.5vw, 12px);
