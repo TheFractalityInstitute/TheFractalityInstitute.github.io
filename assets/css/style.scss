@@ -138,7 +138,7 @@
   /* “Glass plate” around the logo */
   --fi-hero-pad: clamp(8px, 1.5vw, 12px);
   --fi-hero-radius: 16px;
-  --fi-hero-bg: rgba(255,255,255,0.88); /* a touch more opaque on small screens */
+  --fi-hero-bg: rgba(255,255,255,0.1); /* a touch more opaque on small screens */
 }
 
 /* Apply the knobs */
