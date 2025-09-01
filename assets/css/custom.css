@@ -36,3 +36,42 @@
 
 /* Tidy the first element after the header */
 .main-content > :first-child { margin-top: 0; }
+
+/* --- FI: overlay hero on Cayman header --- */
+
+/* Make the gradient header a bit taller so the image can overlap cleanly */
+.page-header{
+  background-image: linear-gradient(110deg, #0aa36f, #ff7a18);
+  padding-top: 3.5rem;
+  padding-bottom: 9rem;   /* extra space for overlap */
+  margin-bottom: 0;
+  position: relative;
+}
+
+/* Pull the hero image upward so it sits on the gradient */
+.hero{
+  width: min(1100px, 92%);
+  margin: -7.5rem auto 1.25rem;  /* negative top margin = overlap */
+  position: relative;
+  z-index: 5;                    /* keep it above the header */
+}
+.hero img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.18);
+}
+
+/* Responsive tweak: slightly less overlap on small screens */
+@media (max-width: 640px){
+  .page-header{ padding-bottom: 7.5rem; }
+  .hero{ margin-top: -6rem; }
+}
+
+/* (Optional) Hide the default "Home" + tagline text in the header */
+ /* comment these lines out if you want to keep the text */
+.page-header .project-name,
+.page-header .project-tagline{
+  display: none;
+}
+
