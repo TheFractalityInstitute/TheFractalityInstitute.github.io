@@ -76,7 +76,7 @@
   content: "";
   position: absolute;
   inset: 0;                     /* covers the hero box incl. padding */
-  background: rgba(255, 255, 255, 0.75);   /* adjust 0.75–0.92 to taste */
+  background: rgba(255, 255, 255, 0.25);   /* adjust 0.75–0.92 to taste */
   -webkit-backdrop-filter: blur(6px) saturate(115%);
   backdrop-filter: blur(6px) saturate(115%);
   border-radius: 12px;
