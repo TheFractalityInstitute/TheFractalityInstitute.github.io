@@ -31,9 +31,6 @@
 }
 .card h3 { margin-top: 0; color: #0aa36f; }
 
-/* Remove the Cayman gradient header strip */
-.page-header { display: none; }
-
 /* Pull content up now that header is gone */
 .main-content { padding-top: 0; }
 
