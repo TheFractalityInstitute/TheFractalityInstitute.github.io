@@ -3,10 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="hero">
-  <img src="/assets/img/FI-header.png" alt="The Fractality Institute for Integrative Science and Philosophy">
-</div>
-
 ### Our Mission
 
 <blockquote style="border-left: 4px solid #0aa36f; padding-left: 1rem; color: #555; font-style: italic;">
