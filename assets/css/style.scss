@@ -243,3 +243,8 @@
   vertical-align: text-bottom; /* Aligns icon nicely with text */
   margin-right: 6px;
 }
+
+/* Ensure the hero link has no text decoration */
+.main-content > a {
+  text-decoration: none !important;
+}
