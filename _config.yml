@@ -33,10 +33,6 @@ permalink: pretty
 # Add this line at the very end of _config.yml
 # Force rebuild: 2025-09-01
 
-# _config.yml
-
-# ... (your existing config) ...
-
 # Add these new sections for collections
 collections:
   frameworks:
@@ -45,3 +41,7 @@ collections:
   protocols:
     output: true
     permalink: /resources/protocols/:path/
+  experiments:
+    output: true
+    permalink: /experiments/:path/
+  
