@@ -213,3 +213,33 @@
     --fi-hero-radius:       14px;
   }
 }
+
+/* --- Custom Footer Styles --- */
+.site-footer {
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.site-footer p {
+  margin: 0.5rem 0;
+}
+
+.site-footer a {
+  color: #0aa36f; /* Using your theme's green */
+  text-decoration: none;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.orcid-link img {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: text-bottom; /* Aligns icon nicely with text */
+  margin-right: 6px;
+}
