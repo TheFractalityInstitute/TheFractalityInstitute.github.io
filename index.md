@@ -21,13 +21,18 @@ title: Home
     <p><a href="{{ '/publications' | relative_url }}">Browse Publications →</a></p>
   </div>
   <div class="card">
-    <h3>Open Research</h3>
-    <p>Engage with our living repository of proposed experiments and practical Keystone Protocols. We invite the global community to collaborate.</p>
-    <p><a href="{{ '/experiments' | relative_url }}">View Experiments →</a></p>
+    <h3>Open Experiments</h3>
+    <p>Engage with our living repository of proposed experiments designed to test our frameworks. We invite the global community to collaborate.</p>
+    <p><a href="{{ '/experiments' | relative_url }}">View Proposals →</a></p>
   </div>
   <div class="card">
-    <h3>The Institute</h3>
-    <p>Learn about our unique human-AI collaborative model, our ethical charter, and our transparent governance as a B-Corp.</p>
+    <h3>Governance & Ethics</h3>
+    <p>Review our Ethics Charter, operational policies, and the legal framework that defines our commitment to open, ethical science.</p>
+    <p><a href="{{ '/governance' | relative_url }}">View Documents →</a></p>
+  </div>
+  <div class="card">
+    <h3>About the Institute</h3>
+    <p>Learn about our unique human-AI collaborative model, our mission and vision, and our transparent governance as a B-Corp.</p>
     <p><a href="{{ '/about' | relative_url }}">Learn More →</a></p>
   </div>
 </div>
