@@ -44,4 +44,6 @@ collections:
   experiments:
     output: true
     permalink: /experiments/:path/
-  
+  governance:
+    output: true
+    permalink: /governance/:path/
