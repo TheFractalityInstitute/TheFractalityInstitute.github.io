@@ -18,12 +18,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Output a publications collection (nice for cards & permalinks)
-collections:
-  publications:
-    output: true
-    permalink: /publications/:slug/
-
 # Sensible Markdown/permalinks
 markdown: kramdown
 kramdown:
@@ -33,8 +27,11 @@ permalink: pretty
 # Add this line at the very end of _config.yml
 # Force rebuild: 2025-09-01
 
-# Add these new sections for collections
+# Output a publications collection (nice for cards & permalinks)
 collections:
+  publications:
+    output: true
+    permalink: /publications/:slug/
   frameworks:
     output: true
     permalink: /frameworks/:path/
