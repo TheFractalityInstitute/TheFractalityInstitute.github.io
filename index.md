@@ -11,18 +11,23 @@ title: Home
 
 <div class="cards">
   <div class="card">
-    <h3>Our Research</h3>
-    <p>Explore our foundational frameworks, including the Universal Crystallization Theory (UCT) and the Unified Resonance Framework (URF).</p>
-    <p><a href="{{ '/research' | relative_url }}">View Research →</a></p>
+    <h3>Core Frameworks</h3>
+    <p>Explore our foundational theories, from the Universal Crystallization Theory (UCT) to the Pattern Validation Protocol (PVP).</p>
+    <p><a href="{{ '/frameworks' | relative_url }}">Explore Our Science →</a></p>
   </div>
   <div class="card">
     <h3>Publications</h3>
-    <p>Access our peer-reviewed preprints, technical specifications, and other scholarly articles published on open-access repositories.</p>
+    <p>Access our peer-reviewed preprints, technical specifications, and other scholarly articles on open-access repositories.</p>
     <p><a href="{{ '/publications' | relative_url }}">Browse Publications →</a></p>
   </div>
   <div class="card">
-    <h3>About the Institute</h3>
-    <p>Learn about our unique human-AI collaborative model, our governance as a B-Corp, and how to get involved with our work.</p>
+    <h3>Open Research</h3>
+    <p>Engage with our living repository of proposed experiments and practical Keystone Protocols. We invite the global community to collaborate.</p>
+    <p><a href="{{ '/experiments' | relative_url }}">View Experiments →</a></p>
+  </div>
+  <div class="card">
+    <h3>The Institute</h3>
+    <p>Learn about our unique human-AI collaborative model, our ethical charter, and our transparent governance as a B-Corp.</p>
     <p><a href="{{ '/about' | relative_url }}">Learn More →</a></p>
   </div>
 </div>
