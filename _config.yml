@@ -1,6 +1,16 @@
 title: The Fractality Institute
-description: The Fractality Institute for Integrative Science and Philosophy
+description: A nonprofit research organization dedicated to advancing the Universal Crystallization Theory and its applications.
+show_downloads: false
 theme: jekyll-theme-cayman
+
+page_navigator:
+  - title: Publications
+    url: /publications/
+  - title: FAQ
+    url: /faq/
+  - title: Donate
+    url: /donate/
+
 
 url: "https://fractality.institute"
 baseurl: ""   # keep empty for apex
