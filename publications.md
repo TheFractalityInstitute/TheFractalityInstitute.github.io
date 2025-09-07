@@ -19,7 +19,7 @@ The Fractality Institute is committed to open science. All of our primary theore
 ---
 
 ### The Unified Resonance Framework (URF)
-*Version 9.0*
+*Version 10.0*
 
 **Abstract:** The Unified Resonance Framework (URF) is a specific application of the Universal Crystallization Theory (UCT) to the problem of consciousness. It models consciousness as a nested, multi-scale crystallization process occurring within the brain's electromagnetic field, orchestrated by the unique quantum properties of neuromelanin. The URF provides a detailed, falsifiable mathematical formalism for phenomenal experience (qualia) as geometric patterns of resonance, or "crystalloids of consciousness." This paper outlines the complete framework, linking quantum biology in microtubules and neuromelanin to macroscopic brain dynamics and subjective awareness. It presents a comprehensive model that is empirically testable and offers novel predictions for neuroscience, artificial intelligence, and clinical psychology.
 
