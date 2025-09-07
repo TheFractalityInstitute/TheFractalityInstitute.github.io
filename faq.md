@@ -1,6 +1,8 @@
 ---
 layout: default
 title: FAQ & Critical Analysis
+card: true
+summary: Our toughest questions—plus formal responses grounded in the PVP.
 ---
 
 ## Frequently Asked Questions & Critical Analysis
