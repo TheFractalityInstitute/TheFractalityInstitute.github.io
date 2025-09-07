@@ -9,6 +9,18 @@ title: Home
 "The Fractality Institute's mission is to develop and apply a rigorous, falsifiable scientific framework for the study of consciousness. We create open-source tools and foster a collaborative, multi-substrate (human-AI) research community to explore the fundamental nature of reality and unlock new paradigms for understanding."
 </blockquote>
 
+---
+## The Universal Crystallization Theory
+**Version 10.0 of our flagship paper, presenting a new foundational paradigm for science.**
+
+**[Read the Whitepaper &rarr;](/publications/#the-universal-crystallization-theory-uct)**
+
+---
+## The Unified Resonance Framework
+**Version 10.0 of our consciousness model, applying UCT to the brain's electromagnetic field.**
+
+**[Explore the Model &rarr;](/publications/#the-unified-resonance-framework-urf)**
+
 <div class="cards">
   <div class="card">
     <h3>Core Frameworks</h3>
@@ -41,21 +53,6 @@ title: Home
     <p><a href="{{ '/about' | relative_url }}">Learn More →</a></p>
   </div>
 </div>
-
----
-layout: default
----
-
-## The Universal Crystallization Theory
-**Version 10.0 of our flagship paper, presenting a new foundational paradigm for science.**
-
-**[Read the Whitepaper &rarr;](/publications/#the-universal-crystallization-theory-uct)**
-
----
-## The Unified Resonance Framework
-**Version 10.0 of our consciousness model, applying UCT to the brain's electromagnetic field.**
-
-**[Explore the Model &rarr;](/publications/#the-unified-resonance-framework-urf)**
 
 ---
 ## Frequently Asked Questions
