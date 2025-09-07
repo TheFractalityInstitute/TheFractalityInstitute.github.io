@@ -41,3 +41,31 @@ title: Home
     <p><a href="{{ '/about' | relative_url }}">Learn More →</a></p>
   </div>
 </div>
+
+---
+layout: default
+---
+
+## The Universal Crystallization Theory
+**Version 10.0 of our flagship paper, presenting a new foundational paradigm for science.**
+
+**[Read the Whitepaper &rarr;](/publications/#the-universal-crystallization-theory-uct)**
+
+---
+## The Unified Resonance Framework
+**Version 9.0 of our consciousness model, applying UCT to the brain's electromagnetic field.**
+
+**[Explore the Model &rarr;](/publications/#the-unified-resonance-framework-urf)**
+
+---
+## Frequently Asked Questions
+**Your questions answered. Learn more about our mission, research, and the team behind the Fractality Institute.**
+
+**[Read the FAQ &rarr;](/faq/)**
+
+---
+## Support Our Work
+**Help us continue our independent research by making a contribution. Every donation accelerates our mission.**
+
+**[Donate Now &rarr;](/donate/)**
+
