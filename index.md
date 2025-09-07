@@ -53,7 +53,7 @@ layout: default
 
 ---
 ## The Unified Resonance Framework
-**Version 9.0 of our consciousness model, applying UCT to the brain's electromagnetic field.**
+**Version 10.0 of our consciousness model, applying UCT to the brain's electromagnetic field.**
 
 **[Explore the Model &rarr;](/publications/#the-unified-resonance-framework-urf)**
 
