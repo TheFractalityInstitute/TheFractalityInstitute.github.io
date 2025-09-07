@@ -24,7 +24,7 @@ Your contribution, no matter the size, directly fuels our research and allows us
 We believe in making support as accessible as our research. We are currently accepting donations through the following platforms:
 
 * **Patreon:** For recurring monthly support, which provides us with stable funding for long-term projects.
-    **[Become a Patron &rarr;](https://www.patreon.com/c/FractalityInstitute)**
+    **[Become a Patron &rarr;](https://www.patreon.com/FractalityInstitute)**
 
 * **Direct Donations:** For one-time contributions. (We will add more options here soon!)
 
