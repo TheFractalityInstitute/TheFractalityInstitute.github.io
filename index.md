@@ -21,6 +21,11 @@ title: Home
     <p><a href="{{ '/publications' | relative_url }}">Browse Publications →</a></p>
   </div>
   <div class="card">
+    <h3>FAQ & Critical Analysis</h3>
+    <p>Our toughest questions—plus formal responses grounded in the PVP.</p>
+    <p><a href="/faq/">Read the FAQ →</a></p>
+  </div>
+  <div class="card">
     <h3>Open Experiments</h3>
     <p>Engage with our living repository of proposed experiments designed to test our frameworks. We invite the global community to collaborate.</p>
     <p><a href="{{ '/experiments' | relative_url }}">View Proposals →</a></p>
