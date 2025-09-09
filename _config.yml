@@ -27,6 +27,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-scholar
 
 # Sensible Markdown/permalinks
 markdown: kramdown
