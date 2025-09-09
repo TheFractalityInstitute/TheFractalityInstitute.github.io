@@ -55,3 +55,9 @@ collections:
   governance:
     output: true
     permalink: /governance/:path/
+
+    
+scholar:
+  style: apa # American Psychological Association style is a good default
+  bibliography: fractality_master.bib
+  bibliography_template: "{{reference}}"
