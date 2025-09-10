@@ -55,6 +55,12 @@ collections:
   governance:
     output: true
     permalink: /governance/:path/
+  case_files:
+    output: true
+    permalink: /case-files/:title/
+  memoranda:
+    output: true
+    permalink: /methodology/memoranda/:title/
 
     
 scholar:
