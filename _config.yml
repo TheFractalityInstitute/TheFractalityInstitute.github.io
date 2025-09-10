@@ -58,6 +58,6 @@ collections:
 
     
 scholar:
-  style: apa # American Psychological Association style is a good default
+  style: nature # Nature citation style
   bibliography: fractality_master.bib
   bibliography_template: "{{reference}}"
