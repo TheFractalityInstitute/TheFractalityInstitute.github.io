@@ -55,6 +55,9 @@ collections:
   governance:
     output: true
     permalink: /governance/:path/
+  papers:
+    output: true
+    permalink: /papers/:title/
   case_files:
     output: true
     permalink: /case-files/:title/
@@ -65,7 +68,7 @@ collections:
     output: true
     permalink: /philosophy/:title/
 
-    
+
 scholar:
   style: nature # Nature citation style
   bibliography: fractality_master.bib
