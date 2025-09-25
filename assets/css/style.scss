@@ -8,7 +8,7 @@
 :root{
   /* Tune these two numbers only */
   --fi-header-pad-bottom: 6.5rem;  /* how tall the gradient is below the title area */
-  --fi-overlap:           11.5rem;   /* how far the white card (with the logo) overlaps the gradient */
+  --fi-overlap:           9.5rem;   /* how far the white card (with the logo) overlaps the gradient */
 }
 
 /* Gradient header */
@@ -133,7 +133,7 @@
   --fi-header-pad-bottom: clamp(4.25rem, 8vw, 6.5rem);
 
   /* How far the white card overlaps the gradient */
-  --fi-overlap: clamp(3.25rem, 10vw, 11.5rem);
+  --fi-overlap: clamp(3.25rem, 10vw, 9.5rem);
 
   /* “Glass plate” around the logo */
   --fi-hero-pad: clamp(8px, 1.5vw, 12px);
